@@ -6,6 +6,6 @@ discount_percent = float(input("Enter the discount percentage: "))
 if discount_percent >= 20:
     discount_amount = (discount_percent / 100) * price
     final_price = price - discount_amount
-    print(f"✅ Discount applied! Final price: {final_price:.2f}")
+    print(f"Discount applied! Final price: {final_price:.2f}")
 else:
     print(f"No discount applied. Price remains: {price:.2f}")
