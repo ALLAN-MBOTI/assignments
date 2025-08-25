@@ -1,6 +1,6 @@
 
 
-filename = 'file.txt'
+filename = input("Enter the file name .i.e file.txt :")
 
 try:
     # Open the file for reading

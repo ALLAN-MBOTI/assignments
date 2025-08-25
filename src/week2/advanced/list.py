@@ -3,21 +3,6 @@ from typing import List, Tuple
 
 
 def process_list_operations() -> Tuple[List[int], int]:
-    """
-    Perform a sequence of operations on a list.
-
-    Steps:
-    1. Create an empty list.
-    2. Append 10, 20, 30, and 40 to the list.
-    3. Insert 15 at the second position.
-    4. Extend the list with [50, 60, 70].
-    5. Remove the last element.
-    6. Sort the list in ascending order.
-    7. Find and return the index of 30.
-
-    Returns:
-        Tuple[List[int], int]: The final list and the index of 30.
-    """
     # Step 1: Create an empty list
     my_list: List[int] = []
 
@@ -46,10 +31,6 @@ def process_list_operations() -> Tuple[List[int], int]:
 
 
 def main() -> None:
-    """
-    Entry point for running the list operations as a script.
-    Prints the final list and the index of 30.
-    """
     final_list, index_of_30 = process_list_operations()
 
     print("Index of 30 in my_list:", index_of_30)
@@ -58,3 +39,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# print(main())
